@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2020-02-15T17:24:01Z" product-name="gefahrenatlas">
+		<header/>
+		<body>
+			<trans-unit id="kategorie.description">
+				<source>Auswahl einer Kategorie</source>
+			</trans-unit>
+			<trans-unit id="ort_lat.description">
+				<source>Breitengrad</source>
+			</trans-unit>
+			<trans-unit id="ort_lon.description">
+				<source>Längengrad</source>
+			</trans-unit>
+			<trans-unit id="ort_zoom.description">
+				<source>Zoom-Faktor</source>
+			</trans-unit>
+			<trans-unit id="strasse.description">
+				<source>strasse</source>
+			</trans-unit>
+			<trans-unit id="beschreibung.description">
+				<source>Beschreibung der Störung</source>
+			</trans-unit>
+			<trans-unit id="video.description">
+				<source>Link zu einem Video</source>
+			</trans-unit>
+			<trans-unit id="bild.description">
+				<source>Bild zur Meldung</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>Email des Users</source>
+			</trans-unit>
+			<trans-unit id="melder.description">
+				<source>Name des Melders</source>
+			</trans-unit>
+			<trans-unit id="nutzungsbedingungen.description">
+				<source>Bestättigung der Nutzungsbedingungen</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

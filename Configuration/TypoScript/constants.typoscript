@@ -1,0 +1,30 @@
+
+plugin.tx_gefahrenatlas_gefahrenatlaslist {
+    view {
+        # cat=plugin.tx_gefahrenatlas_gefahrenatlaslist/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:gefahrenatlas/Resources/Private/Templates/
+        # cat=plugin.tx_gefahrenatlas_gefahrenatlaslist/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:gefahrenatlas/Resources/Private/Partials/
+        # cat=plugin.tx_gefahrenatlas_gefahrenatlaslist/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:gefahrenatlas/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_gefahrenatlas_gefahrenatlaslist//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
+
+plugin.tx_gefahrenatlas_gefahrenatlasnew {
+    view {
+        # cat=plugin.tx_gefahrenatlas_gefahrenatlasnew/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:gefahrenatlas/Resources/Private/Templates/
+        # cat=plugin.tx_gefahrenatlas_gefahrenatlasnew/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:gefahrenatlas/Resources/Private/Partials/
+        # cat=plugin.tx_gefahrenatlas_gefahrenatlasnew/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:gefahrenatlas/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_gefahrenatlas_gefahrenatlasnew//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

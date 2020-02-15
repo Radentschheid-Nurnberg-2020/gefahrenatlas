@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2020-02-15T17:24:01Z" product-name="gefahrenatlas">
+		<header/>
+		<body>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung">
+				<source>Meldung</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.kategorie">
+				<source>Kategorie</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.ort_lat">
+				<source>Ort Lat</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.ort_lon">
+				<source>Ort Lon</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.ort_zoom">
+				<source>Ort Zoom</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.strasse">
+				<source>Strasse</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.beschreibung">
+				<source>Beschreibung</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.video">
+				<source>Video</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.bild">
+				<source>Bild</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.melder">
+				<source>Melder</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_domain_model_meldung.nutzungsbedingungen">
+				<source>Nutzungsbedingungen</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_gefahrenatlaslist.name">
+				<source>Gefahrenatltas List</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_gefahrenatlaslist.description">
+				<source>Auflistung der Meldeungen des Gefahrenatlas</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_gefahrenatlasnew.name">
+				<source>Gefahrenatlas Meldung machen</source>
+			</trans-unit>
+			<trans-unit id="tx_gefahrenatlas_gefahrenatlasnew.description">
+				<source>Melden einer neuen Gefahrenstelle</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

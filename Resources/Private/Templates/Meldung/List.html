@@ -1,0 +1,58 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:layout name="Default" />
+
+	This Template is responsible for creating a table of domain objects.
+
+	If you modify this template, do not forget to change the overwrite settings
+	in /Configuration/ExtensionBuilder/settings.yaml:
+	  Resources:
+		Private:
+		  Templates:
+			List.html: keep
+
+	Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+	<f:section name="content">
+		<h1>Listing for Meldung</h1>
+
+		<f:flashMessages />
+
+		<table  class="tx_gefahrenatlas" >
+			<tr>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.kategorie" /></th>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.ort_lat" /></th>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.ort_lon" /></th>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.ort_zoom" /></th>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.strasse" /></th>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.beschreibung" /></th>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.video" /></th>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.bild" /></th>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.email" /></th>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.melder" /></th>
+				<th><f:translate key="tx_gefahrenatlas_domain_model_meldung.nutzungsbedingungen" /></th>
+				<th> </th>
+				<th> </th>
+			</tr>
+
+			<f:for each="{meldungs}" as="meldung">
+				<tr>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.kategorie}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.ortLat}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.ortLon}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.ortZoom}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.strasse}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.beschreibung}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.video}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.bild}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.email}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.melder}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{meldung : meldung}"> {meldung.nutzungsbedingungen}</f:link.action></td>
+					<td><f:link.action action="edit" arguments="{meldung : meldung}">Edit</f:link.action></td>
+					<td><f:link.action action="delete" arguments="{meldung : meldung}">Delete</f:link.action></td>
+				</tr>
+			</f:for>
+		</table>
+
+		<f:link.action action="new">New Meldung</f:link.action>
+	</f:section>
+</html>

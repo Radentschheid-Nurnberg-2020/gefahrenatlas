@@ -1,0 +1,228 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    69,
+                    47
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": true,
+                    "_default2_new_create": true,
+                    "_default3_edit_update": true,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Meldung",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "Hier werden die Meldungen der Nutzer gespecihert",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "555357538599"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Auswahl einer Kategorie",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "kategorie",
+                            "propertyType": "Select",
+                            "uid": "149053782573"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Breitengrad",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "ortLat",
+                            "propertyType": "String",
+                            "uid": "175307700651"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "L\u00e4ngengrad",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "ortLon",
+                            "propertyType": "String",
+                            "uid": "114513017647"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Zoom-Faktor",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "ortZoom",
+                            "propertyType": "String",
+                            "uid": "455704247519"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "strasse",
+                            "propertyType": "String",
+                            "uid": "144599950124"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Beschreibung der St\u00f6rung",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "beschreibung",
+                            "propertyType": "Text",
+                            "uid": "226988529116"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Link zu einem Video",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "video",
+                            "propertyType": "String",
+                            "uid": "927712574864"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "5",
+                            "propertyDescription": "Bild zur Meldung",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "bild",
+                            "propertyType": "Image",
+                            "uid": "6664626019"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Email des Users",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "email",
+                            "propertyType": "Email",
+                            "uid": "1454776392675"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Name des Melders",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "melder",
+                            "propertyType": "String",
+                            "uid": "401602605473"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Best\u00e4ttigung der Nutzungsbedingungen",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "nutzungsbedingungen",
+                            "propertyType": "Boolean",
+                            "uid": "1045065169503"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Eintragen von Gefahrenstellen im Stra\u00dfenverkehr",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 9.5.0-10.9.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "de",
+            "state": "alpha",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "gefahrenatlas",
+        "name": "Gefahrenatlas",
+        "originalExtensionKey": "gefahrenatlas",
+        "originalVendorName": "Radentscheidnbg2020",
+        "persons": [
+            {
+                "company": "ibikenbg",
+                "email": "mhueber@freenet.de",
+                "name": "Matthias Hueber",
+                "role": "Developer"
+            },
+            {
+                "company": "Radentscheid N\u00fcrnberg",
+                "email": "technik@radentscheid-nuernberg.de",
+                "name": "Hubertus Golf",
+                "role": "Product Manager"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Meldung => list,show,new,create",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "description": "Auflistung der Meldeungen des Gefahrenatlas",
+                "key": "gefahrenatlaslist",
+                "name": "Gefahrenatltas List"
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "Meldung => new, list,show,create",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "description": "Melden einer neuen Gefahrenstelle",
+                "key": "gefahrenatlasnew",
+                "name": "Gefahrenatlas Meldung machen"
+            }
+        ],
+        "vendorName": "Radentscheidnbg2020"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2020-02-15 05:24",
+        "extension_builder_version": "9.10.2",
+        "be_user": " (1)"
+    }
+}
